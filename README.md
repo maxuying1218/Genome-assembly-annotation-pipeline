@@ -3,6 +3,7 @@ Genome assembly and annotation pipeline
 This is a pipeline to assemble and annotate Fusarium graminearum 5035 strain.
 
 ## Software requirements
+____
 - For genome assembly: hifiasm, juicer, juicer_tools, juice_box, 3D-DNA/yahs
 - For repeat and gene annotation: RepeatMasker, RepeatModeler, Trinity, augustus, GeneMark-ES/EK, GenomeThreader, PASA, EVidenceModeler
 - For genome quality assessment: BUSCO, QUAST, minimap2, samtools, CRAQ
