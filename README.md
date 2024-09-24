@@ -8,6 +8,9 @@ This is a pipeline to assemble and annotate _Fusarium graminearum 5035_ strain.
 - For genome quality assessment: BUSCO, QUAST, minimap2, samtools, CRAQ
 - For phylogenetic tree and gene family expansion and contraction: OrthoFinder, mafft, Gblocks, seqkit, modeltest-ng, raxml-ng, CAFE5, r8s
 
+## Pipeline workflow 
+![image](https://github.com/maxuying1218/Genome-assembly-annotation-pipeline/blob/main/figures/workflow.png)
+
 ## Part 1: _Fg.5035_ Genome assembly
 This part is to assemble fungal genome such as _Fusarium_ using HiFi and Hi-C data.  
 Code is stored at [1.assemble_HiFi_HiC_to_chromosome](./1.assemble_HiFi_HiC_to_chromosome).  
